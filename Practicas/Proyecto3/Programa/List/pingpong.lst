@@ -1,16 +1,16 @@
 
-AVRASM ver. 2.1.30  C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm Sun May 28 17:41:30 2023
+AVRASM ver. 2.1.30  C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm Sun May 28 23:56:42 2023
 
-C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm(1415): warning: Register r4 already defined by the .DEF directive
-C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm(1416): warning: Register r5 already defined by the .DEF directive
-C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm(1417): warning: Register r6 already defined by the .DEF directive
-C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm(1418): warning: Register r7 already defined by the .DEF directive
-C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm(1419): warning: Register r8 already defined by the .DEF directive
-C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm(1420): warning: Register r9 already defined by the .DEF directive
-C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm(1421): warning: Register r10 already defined by the .DEF directive
-C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm(1422): warning: Register r11 already defined by the .DEF directive
-C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm(1423): warning: Register r12 already defined by the .DEF directive
-C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\List\pingpong.asm(1424): warning: Register r13 already defined by the .DEF directive
+C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm(1415): warning: Register r4 already defined by the .DEF directive
+C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm(1416): warning: Register r5 already defined by the .DEF directive
+C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm(1417): warning: Register r6 already defined by the .DEF directive
+C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm(1418): warning: Register r7 already defined by the .DEF directive
+C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm(1419): warning: Register r8 already defined by the .DEF directive
+C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm(1420): warning: Register r9 already defined by the .DEF directive
+C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm(1421): warning: Register r10 already defined by the .DEF directive
+C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm(1422): warning: Register r11 already defined by the .DEF directive
+C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm(1423): warning: Register r12 already defined by the .DEF directive
+C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\List\pingpong.asm(1424): warning: Register r13 already defined by the .DEF directive
                  
                  
                  ;CodeVisionAVR C Compiler V3.51 
@@ -3247,16 +3247,13 @@ C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\L
 0003db d2c4      	RCALL _delay_ms
                  ; 0000 028E }
                  ; 0000 028F //
-                 ; 0000 0290 
-                 ; 0000 0291 
-                 ; 0000 0292 
-                 ; 0000 0293 //
-                 ; 0000 0294 }
+                 ; 0000 0290 //
+                 ; 0000 0291 }
                  _0xB1:
-                 ; 0000 0295 }
+                 ; 0000 0292 }
                  _0x1B:
 0003dc cd5c      	RJMP _0x18
-                 ; 0000 0296 }
+                 ; 0000 0293 }
                  _0xD7:
 0003dd cfff      	RJMP _0xD7
                  ; .FEND

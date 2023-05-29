@@ -124,7 +124,7 @@ WarningUnknownPragma=1
 LinkerWarnings=1
 DebugBootLoader=0
 WatchAVR8LAutoVariables=0
-Build=37
+Build=38
 UseEEPROMLocation0=1
 OutputFormat=1
 ExternalInterruptVectors=0
@@ -142,7 +142,7 @@ WarningExternalDeclaredNeverDefined=1
 WarningStaticRamEepromStorageAllocConstStrLit=1
 DisplayCodeSizeError=1
 UseBootAppXmega=0
-COFFileTimeStamp=1455197488
+COFFileTimeStamp=1455210262
 IncludePath0=C:\cvavreval\inc
 IncludePath1=
 IncludePath2=
@@ -384,7 +384,7 @@ Row=0
 Column=0
 ScrollPosX=0
 ScrollPosY=0
-TimeStamp=1455204507
+TimeStamp=1455210264
 [BookmarksFoldedCode]
 Files=2
 F1=pingpong.c
@@ -394,7 +394,7 @@ TimeStamp=1455204507
 Row=0
 Column=0
 ScrollPosX=0
-ScrollPosY=0
+ScrollPosY=384
 BK0=-1
 BK1=-1
 BK2=-1
@@ -512,7 +512,7 @@ UseEEPROMLocation0=1
 DisplayCodeSizeError=1
 UseBootAppXmega=0
 COFFileTimeStamp=-1
-Build=37
+Build=38
 [DefinedSymbolsDebug]
 Count=0
 [CompilerAdvanced]
@@ -561,8 +561,8 @@ L13=Enhanced function parameters passing: Mode 1
 L14=Automatic register allocation: Yes
 L15=Smart register allocation: Yes
 L16=
-L17=Build: 37
-L18=12396 line(s) compiled
+L17=Build: 38
+L18=12393 line(s) compiled
 L19=No errors
 L20=1 warning(s)
 L21=
@@ -612,16 +612,16 @@ BK6=-1
 BK7=-1
 BK8=-1
 BK9=-1
+[FoldedCode2]
+Blocks=0
 [HeadersList]
 Files=1
-F1=C:\Users\alanm\Desktop\SistemasChips\Practicas\20_Proyecto03_PingPong\Programa\pingpong.c
+F1=C:\Users\alanm\Documents\GitHub\SistemasEnChip\Practicas\Proyecto3\Programa\pingpong.c
 [Header1]
 Files=4
 F1=C:\cvavreval\inc\mega8535.h
 F2=C:\cvavreval\inc\mega8535_bits.h
 F3=C:\cvavreval\inc\delay.h
 F4=C:\cvavreval\inc\alcd.h
-[FoldedCode2]
-Blocks=0
 [FoldedCode1]
 Blocks=0
