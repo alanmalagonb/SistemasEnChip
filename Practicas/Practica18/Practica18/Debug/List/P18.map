@@ -1,0 +1,56 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+decenaA                                                                           0x00E0       1
+unidadA                                                                           0x00E1       1
+decenaM                                                                           0x00E2       1
+unidadM                                                                           0x00E3       1
+decenaD                                                                           0x00E4       1
+unidadD                                                                           0x00E5       1
+decenaH                                                                           0x00E6       1
+unidadH                                                                           0x00E7       1
+decenaMin                                                                         0x00E8       1
+unidadMin                                                                         0x00E9       1
+decenaSec                                                                         0x00EA       1
+unidadSec                                                                         0x00EB       1
+segundos                                                                          0x00EC       1
+fecHor                                                                            0x00ED       1
+_base_y (alcd.lib)                                                                0x00EE       4
+_lcd_x                                                                            0x00F2       1
+_lcd_y                                                                            0x00F3       1
+_lcd_maxx                                                                         0x00F4       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+Vin                                                                               R5           1
+decimal                                                                           R4           1
+unidades                                                                          R7           1
+decenas                                                                           R6           1
+centi                                                                             R8,R9        2
+temp                                                                              R10,R11      2
+millarA                                                                           R13          1
+centenaA                                                                          R12          1
+botona                                                                            R2.0      1bit
+botonp                                                                            R2.1      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x00077     13
+checaBoton                                                                        0x00084     43
+checaPrim                                                                         0x000AF     59
+checaSeg                                                                          0x000EA     73
+checaTer                                                                          0x00133     51
+main                                                                              0x00166    271
+_lcd_write_nibble_G100                                                            0x00275     14
+_lcd_write_data                                                                   0x00283     13
+lcd_gotoxy                                                                        0x00290     18
+lcd_clear                                                                         0x002A2     12
+lcd_putchar                                                                       0x002AE     30
+lcd_putsf                                                                         0x002CC     15
+lcd_init                                                                          0x002DB     42

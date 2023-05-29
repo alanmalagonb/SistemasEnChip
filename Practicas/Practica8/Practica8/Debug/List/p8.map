@@ -1,0 +1,22 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+botona                                                                            R2.0      1bit
+botonp                                                                            R2.1      1bit
+conteo                                                                            R2.2      1bit
+decenas                                                                           R5           1
+unidades                                                                          R4           1
+milesimas                                                                         R7           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0004B    111

@@ -1,0 +1,31 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+modoCero                                                                          0x00E0       7
+modoUno                                                                           0x00E7      35
+modoCuatro                                                                        0x010A      50
+modoCinco                                                                         0x013C     174
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+modo                                                                              R5           1
+columnas                                                                          R4           1
+filas                                                                             R7           1
+indice                                                                            R6           1
+numero                                                                            R9           1
+repetir                                                                           R8           1
+renglon                                                                           R11          1
+cambio_caso                                                                       R12,R13      2
+puede_cambiar                                                                     R2.0      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+cambiar_modo                                                                      0x000E0     16
+obtenerArreglo                                                                    0x000F0     34
+main                                                                              0x00112    222
